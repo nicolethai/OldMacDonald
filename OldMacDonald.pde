@@ -1,6 +1,14 @@
+public void setup() {     
 
-void setup()
-{
-	//your variable declarations here
+	Farm f = new Farm();
+	f.animalSounds();
+
+    Cow beefmaster = new Cow("cow", "moo");   
+    System.out.println(beefmaster.getType() + " goes " + beefmaster.getSound());  
+
+    Chick dorking = new Chick("chick", "cluck", "cheep");
+    System.out.println(dorking.getType() + " goes " + dorking.getSound());
+
+    Pig pietrain = new Pig("pig", "oink");
+    System.out.println(pietrain.getType() + " goes " + pietrain.getSound());
 }
-
